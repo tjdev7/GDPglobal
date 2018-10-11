@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  float: left;
+  background-color: #F5F5F5;
+  padding: 0px 15px 0px 10px;
+  margin: 5px 0px 0px 2px;
+  text-align: left;
+  opacity: 0.80;
+  position: fixed;
+  z-index: 1;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+form,
+h1,
+h4,
+p {
+  font-family: 'Helvetica';
+}
+
+form {
+  padding: 5px 0px 10px;
+}
+body {
+
+  z-index: 0;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 15s linear;
+  height: 600px;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*
+---------------------------------
+            Mobile
+---------------------------------
+*/
+/*
+@media only screen and (min-width: 320px) {
+     ===============
+    Maximal Width
+   =============== 
+    .wrapper {
+        width: 1300px;
+         1140px - 10% for margins 
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+
+    .wrapper {
+        width: 1300px;
+         1140px - 10% for margins 
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        width: 1300px;
+         1140px - 10% for margins 
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        width: 1300px;
+        1140px - 10% for margins 
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .wrapper {
+        width: 1300px;
+        1140px - 10% for margins 
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1200px) {
+
+    .wrapper {
+        width: 1300px;
+        1140px - 10% for margins 
+        margin: 0 auto;
+    }
+}
+*/
