@@ -7,7 +7,6 @@ Data visualization created in React. Shows financial data for every nation on Pl
 
 ###  Current data it provides
 
-- Imports per year
 - Exports per year
 - GDP 
 
