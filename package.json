@@ -1,7 +1,8 @@
 {
-  "name": "datasctest",
+  "name": "GDPglobal",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://toughee.github.io/dmap/",
   "dependencies": {
     "graphql": "^0.13.2",
     "jquery": "^3.3.1",
@@ -11,6 +12,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-map-gl": "^3.3.4",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -19,14 +21,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "@storybook/react": "^3.4.10",
     "@storybook/addon-actions": "^3.4.10",
     "@storybook/addon-links": "^3.4.10",
     "@storybook/addons": "^3.4.10",
+    "@storybook/react": "^3.4.10",
     "babel-core": "^6.26.3",
-    "babel-runtime": "^6.26.0"
+    "babel-runtime": "^6.26.0",
+    "gh-pages": "^2.0.1"
   }
 }

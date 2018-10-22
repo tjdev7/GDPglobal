@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#168bb6">
 
+    <meta name="description" content="Data visualization app for economies around the world">
+    <meta name="keywords" content="Finance, global, Exports, Imports, GDP, Financial, Data Visualization, Economy">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 
@@ -31,7 +33,7 @@
       var map = new mapboxgl.Map({
           container: 'map', // container id
           style: 'mapbox://styles/serg-1212/cjn67c54h11882rlpojtf4h65',
-          center: [-60.50, 40], // starting position
+          center: [-75.50, 42], // starting position
           zoom: 3 // starting zoom
       });
 
@@ -51,7 +53,7 @@
 
   var popup = new mapboxgl.Popup({ offset: [0, -15] })
     .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.impdta + '</p><p>' + feature.properties.expdta + '</p><p>' + feature.properties.gdpdta + '</p>' )
+    .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.expdta + '</p><p>' + feature.properties.gdpdta + '</p>' )
     .setLngLat(feature.geometry.coordinates)
     .addTo(map);
 });
