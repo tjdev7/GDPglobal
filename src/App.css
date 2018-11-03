@@ -44,62 +44,11 @@ body {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
 /*
----------------------------------
-            Mobile
----------------------------------
+--------------------------------------------
+                Map Style
+--------------------------------------------
 */
-/*
-@media only screen and (min-width: 320px) {
-     ===============
-    Maximal Width
-   =============== 
-    .wrapper {
-        width: 1300px;
-         1140px - 10% for margins 
-        margin: 0 auto;
-    }
-}
 
-@media only screen and (min-width: 480px) {
-
-    .wrapper {
-        width: 1300px;
-         1140px - 10% for margins 
-        margin: 0 auto;
-    }
-}
-@media only screen and (min-width: 600px) {
-    .wrapper {
-        width: 1300px;
-         1140px - 10% for margins 
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .wrapper {
-        width: 1300px;
-        1140px - 10% for margins 
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-
-    .wrapper {
-        width: 1300px;
-        1140px - 10% for margins 
-        margin: 0 auto;
-    }
-}
-@media only screen and (min-width: 1200px) {
-
-    .wrapper {
-        width: 1300px;
-        1140px - 10% for margins 
-        margin: 0 auto;
-    }
-}
-*/
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
