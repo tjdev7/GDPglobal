@@ -1,8 +1,8 @@
 {
   "name": "GDPglobal",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": false,
-  "homepage": "https://toughee.github.io/dmap/",
+  "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
     "graphql": "^0.13.2",
     "jquery": "^3.3.1",
@@ -41,6 +41,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Toughee/dmap.git"
+    "url": "https://github.com/Toughee/GDPglobal.git"
   }
 }
