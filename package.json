@@ -1,6 +1,6 @@
 {
   "name": "GDPglobal",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": false,
   "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
@@ -35,9 +35,12 @@
   "keywords": [
     "Finance",
     "GDP",
-    "Export data",
-    "Import data",
-    "Data visualization"
+    "Exports",
+    "Imports",
+    "Data visualization",
+    "Nations",
+    "Economy",
+    "Global Economy"
   ],
   "repository": {
     "type": "git",
