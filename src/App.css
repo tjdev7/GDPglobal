@@ -1,54 +1,58 @@
-.App {
-  text-align: center;
-  width: 300px;
-  height: 200px;
-  float: left;
-  background-color: #F5F5F5;
-  padding: 0px 15px 0px 5px;
-  text-align: left;
-  opacity: 0.80;
-  position: fixed;
-  z-index: 1;
-}
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-form,
-h1,
-h4,
-p {
-  font-family: 'Helvetica';
-}
-
-form {
-  padding: 5px 0px 10px;
-}
-body {
-
-  z-index: 0;
-}
-
-
-.App-logo {
-  animation: App-logo-spin infinite 15s linear;
-  height: 600px;
-  margin-left: 120px;
-  margin-bottom: 100px;
-}
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
 /*
---------------------------------------------
-                Map Style
---------------------------------------------
+_______________________________________________________
+                  Body style
+-------------------------------------------------------
+*/
+.side_Tab {
+    text-align: center;
+    width: 300px;
+    height: 220px;
+    float: left;
+    background-color: #F5F5F5;
+    padding: 0px 10px 0px 5px;
+    text-align: left;
+    opacity: 0.80;
+    margin-top: -15px;
+    position: fixed;
+    z-index: 1;
+}
+
+/*
+_______________________________________________________
+                  Font styles
+-------------------------------------------------------
 */
 
-body { margin:0; padding:0; }
-#map { position:absolute; top:0; bottom:0; width:100%; }
+h1,
+h4,
+p,
+h3 {
+    font-family: 'Helvetica';
+}
+h5 {
+    margin-bottom: 15px;
+}
+h3 {
+    margin-top: -5px;
+    margin-bottom: -2px;
+}
+p {
+    margin: -2px 0px -2px 0px;
+}
+
+body {
+    z-index: 0;
+}
+
+/*
+_______________________________________________________
+                Map Style
+-------------------------------------------------------
+*/
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
