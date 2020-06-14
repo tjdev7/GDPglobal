@@ -1,17 +1,22 @@
 {
   "name": "GDPglobal",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "private": false,
-  "homepage": "https://toughee.github.io/GDPglobal/",
+  "homepage": "https://gdpglobal-project.github.io/GDPglobal/",
   "dependencies": {
-    "graphql": "^0.13.2",
     "jquery": "^3.5.1",
-    "mapbox-gl": "^0.49.0-beta.1",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
+    "mapbox-gl": "^1.11.0",
+    "mem": "^6.1.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-map-gl": "^3.3.4",
+    "react-map-gl": "^5.2.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^3.4.1",
+    "webpack-dev-server": "^3.11.0",
+    "websocket-extensions": "^0.1.4",
+    "yargs-parser": "^18.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,11 +36,18 @@
     "GDP",
     "Exports",
     "Imports",
-    "Data visualization",
+    "Data_visualization",
     "Nations",
     "Economy",
-    "Global Economy"
+    "Global Economy",
+    "Income",
+    "Trade",
+    "Trade_growth",
+    "International",
+    "Banking",
+    "World Development"
   ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Toughee/GDPglobal.git"

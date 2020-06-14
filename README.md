@@ -1,8 +1,11 @@
+
+![GDPglobal App logo](src/img/global_icon.png)
+
 # GDPglobal
 
-SPA data visualization app created in React. Shows financial data for 199 nations around the world. Have information on every country on planet earth with a few keystrokes.
+SPA data visualizer created in React. Shows financial data for 200 nations around the world. Have information for almost every country on planet earth with a few swipes on the screen
 
-![GDPglobal App logo](src/global_icon.png)
+![GDPglobal App screenshot](src/img/screenshot_app.JPG)
 
 ###  Current data it provides:
 
@@ -18,4 +21,4 @@ SPA data visualization app created in React. Shows financial data for 199 nation
 
 ### Source
 
-- [url](https://wits.worldbank.org/countrystats.aspx?lang=en)
+- [World Bank/WITS](https://wits.worldbank.org/countrystats.aspx?lang=en)
