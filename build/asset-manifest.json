@@ -1,6 +1,22 @@
 {
-  "main.css": "static/css/main.adb8d7a8.css",
-  "main.css.map": "static/css/main.adb8d7a8.css.map",
-  "main.js": "static/js/main.0ec2b497.js",
-  "main.js.map": "static/js/main.0ec2b497.js.map"
+  "files": {
+    "main.css": "/GDPglobal/static/css/main.eb26a23d.chunk.css",
+    "main.js": "/GDPglobal/static/js/main.df0c8e91.chunk.js",
+    "main.js.map": "/GDPglobal/static/js/main.df0c8e91.chunk.js.map",
+    "runtime-main.js": "/GDPglobal/static/js/runtime-main.a1807056.js",
+    "runtime-main.js.map": "/GDPglobal/static/js/runtime-main.a1807056.js.map",
+    "static/js/2.4c3349d5.chunk.js": "/GDPglobal/static/js/2.4c3349d5.chunk.js",
+    "static/js/2.4c3349d5.chunk.js.map": "/GDPglobal/static/js/2.4c3349d5.chunk.js.map",
+    "index.html": "/GDPglobal/index.html",
+    "precache-manifest.2a0dc0d0e06d674c610fc8a66ba4b804.js": "/GDPglobal/precache-manifest.2a0dc0d0e06d674c610fc8a66ba4b804.js",
+    "service-worker.js": "/GDPglobal/service-worker.js",
+    "static/css/main.eb26a23d.chunk.css.map": "/GDPglobal/static/css/main.eb26a23d.chunk.css.map",
+    "static/js/2.4c3349d5.chunk.js.LICENSE.txt": "/GDPglobal/static/js/2.4c3349d5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1807056.js",
+    "static/js/2.4c3349d5.chunk.js",
+    "static/css/main.eb26a23d.chunk.css",
+    "static/js/main.df0c8e91.chunk.js"
+  ]
 }
