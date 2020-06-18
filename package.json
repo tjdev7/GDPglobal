@@ -1,8 +1,8 @@
 {
   "name": "GDPglobal",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "private": false,
-  "homepage": "https://gdpglobal-project.github.io/GDPglobal/",
+  "homepage": "https://gdpglobal-project.github.io/app/",
   "dependencies": {
     "jquery": "^3.5.1",
     "lodash": "^4.17.15",
@@ -49,7 +49,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Toughee/GDPglobal.git"
+    "url": "https://github.com/GDPglobal-project/app.git"
   },
   "browserslist": {
     "production": [
