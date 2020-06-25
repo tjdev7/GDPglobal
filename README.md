@@ -3,7 +3,7 @@
 
 # GDPglobal
 
-SPA data visualizer created in React. Shows financial data for 200 nations around the world. Have information for almost every country on planet earth with a few swipes on the screen
+SPA data visualizer created in React. Shows financial data for over 200 nations around the world. Have the financial information for almost every country on planet earth with a few swipes and clicks on your screen. App currently does not work in the Internet Explorer Browser.
 
 ![GDPglobal App screenshot](src/img/screenshot_app.JPG)
 
@@ -14,9 +14,9 @@ SPA data visualizer created in React. Shows financial data for 200 nations aroun
 - Imports per year in thousands of $US dollars
 
 ### Future goals:
-- [ ] Add GDP per capita for each state
-- [ ] Current HDI per country
-- [ ] Capital for each country
+
+- [ ] Current Human Development Index per country
+- [ ] Capital city for each country
 - [ ] Trade growth percentage
 
 ### Source
