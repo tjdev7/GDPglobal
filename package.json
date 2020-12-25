@@ -1,8 +1,8 @@
 {
   "name": "GDPglobal",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "private": false,
-  "homepage": "https://gdpglobal-project.github.io/app/",
+  "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
     "jquery": "^3.5.1",
     "lodash": "^4.17.19",
