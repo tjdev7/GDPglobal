@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/GDPglobal/static/css/main.735b9eb7.chunk.css",
-    "main.js": "/GDPglobal/static/js/main.bf50c48f.chunk.js",
-    "main.js.map": "/GDPglobal/static/js/main.bf50c48f.chunk.js.map",
+    "main.css": "/GDPglobal/static/css/main.018150db.chunk.css",
+    "main.js": "/GDPglobal/static/js/main.f37016e4.chunk.js",
+    "main.js.map": "/GDPglobal/static/js/main.f37016e4.chunk.js.map",
     "runtime-main.js": "/GDPglobal/static/js/runtime-main.b6e9312b.js",
     "runtime-main.js.map": "/GDPglobal/static/js/runtime-main.b6e9312b.js.map",
-    "static/js/2.a440bd22.chunk.js": "/GDPglobal/static/js/2.a440bd22.chunk.js",
-    "static/js/2.a440bd22.chunk.js.map": "/GDPglobal/static/js/2.a440bd22.chunk.js.map",
+    "static/js/2.05025dc6.chunk.js": "/GDPglobal/static/js/2.05025dc6.chunk.js",
+    "static/js/2.05025dc6.chunk.js.map": "/GDPglobal/static/js/2.05025dc6.chunk.js.map",
     "index.html": "/GDPglobal/index.html",
-    "static/css/main.735b9eb7.chunk.css.map": "/GDPglobal/static/css/main.735b9eb7.chunk.css.map",
-    "static/js/2.a440bd22.chunk.js.LICENSE.txt": "/GDPglobal/static/js/2.a440bd22.chunk.js.LICENSE.txt"
+    "static/css/main.018150db.chunk.css.map": "/GDPglobal/static/css/main.018150db.chunk.css.map",
+    "static/js/2.05025dc6.chunk.js.LICENSE.txt": "/GDPglobal/static/js/2.05025dc6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b6e9312b.js",
-    "static/js/2.a440bd22.chunk.js",
-    "static/css/main.735b9eb7.chunk.css",
-    "static/js/main.bf50c48f.chunk.js"
+    "static/js/2.05025dc6.chunk.js",
+    "static/css/main.018150db.chunk.css",
+    "static/js/main.f37016e4.chunk.js"
   ]
 }
