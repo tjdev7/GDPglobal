@@ -1,5 +1,5 @@
 
-![GDPglobal App logo](src/img/global_icon.png)
+![GDPglobal App logo](src/img/global-icon.png)
 
 # GDPglobal
 
