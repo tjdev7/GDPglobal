@@ -1,6 +1,6 @@
 {
   "name": "GDPglobal",
-  "version": "3.2.6",
+  "version": "3.2.8",
   "private": false,
   "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
@@ -50,7 +50,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GDPglobal-project/app.git"
+    "url": "https://github.com/GDPglobal.git"
   },
   "browserslist": {
     "production": [
