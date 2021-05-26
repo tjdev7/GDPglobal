@@ -1,5 +1,5 @@
 
-![GDPglobal App logo](src/img/global_icon.png)
+![GDPglobal App logo](src/img/global-icon.png)
 
 # GDPglobal
 
@@ -13,7 +13,7 @@ SPA data visualizer created in React. Shows financial data for over 200 nations 
 - GDP per year in thousands of $US dollars
 - Imports per year in thousands of $US dollars
 
-### Future goals:
+### Future data which I would include:
 
 - [ ] Current Human Development Index per country
 - [ ] Capital city for each country
