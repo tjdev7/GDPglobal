@@ -1,11 +1,11 @@
 {
   "name": "GDPglobal",
-  "version": "3.2.13",
+  "version": "3.2.14",
   "private": false,
   "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
     "jquery": "^3.5.1",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "mapbox-gl": "^1.11.0",
     "mem": "^6.1.0",
