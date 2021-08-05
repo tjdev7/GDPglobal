@@ -1,35 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#168bb6">
-    <meta name="msapplication-TileColor" content="#da532c">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#168bb6" />
+    <meta name="msapplication-TileColor" content="#da532c" />
 
-    <meta name="description" content="Data visualization app for economies around the world">
-    <meta name="keywords" content="Finance, global, Exports, Imports, GDP, Financial, Data Visualization, Economy">
-    <link rel="manifest" href="/manifest/manifest.json">
-    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <meta
+      name="description"
+      content="Data visualization app for economies around the world"
+    />
+    <meta
+      name="keywords"
+      content="Finance, global, Exports, Imports, GDP, Financial, Data Visualization, Economy"
+    />
+    <link rel="manifest" href="/manifest/manifest.json" />
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png?v=YA3RPJLKNo">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png?v=YA3RPJLKNo">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png?v=YA3RPJLKNo">
-    <link rel="manifest" href="/img/favicons/site.webmanifest?v=YA3RPJLKNo">
-    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg?v=YA3RPJLKNo" color="#5bbad5">
-    <link rel="shortcut icon" href="/img/favicons/favicon.ico?v=YA3RPJLKNo">
-    
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" href="../src/App.css">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/favicons/apple-touch-icon.png?v=YA3RPJLKNo"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicons/favicon-32x32.png?v=YA3RPJLKNo"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicons/favicon-16x16.png?v=YA3RPJLKNo"
+    />
+    <link rel="manifest" href="/img/favicons/site.webmanifest?v=YA3RPJLKNo" />
+    <link
+      rel="mask-icon"
+      href="/img/favicons/safari-pinned-tab.svg?v=YA3RPJLKNo"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico?v=YA3RPJLKNo" />
 
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/App.css" />
 
-	
-	 <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
     </style>
-	
 
     <title>GDPglobal</title>
   </head>
@@ -39,37 +77,48 @@
     </noscript>
     <div id="root"></div>
 
-    <div id='map'></div>
-      <script>
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2VyZy0xMjEyIiwiYSI6ImNqbHpndDE1ajBwNGszdm53azIwajR1bjUifQ.-1NJchgY5Hx3kYqCJalPxw';
-var map = new mapboxgl.Map({
-    container: 'map', 
-    style: 'mapbox://styles/serg-1212/cjn67c54h11882rlpojtf4h65',
-    center: [-10.50, 45], // starting position
-    zoom: 3.1 // starting zoom
-});
+    <div id="map"></div>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1Ijoic2VyZy0xMjEyIiwiYSI6ImNqbHpndDE1ajBwNGszdm53azIwajR1bjUifQ.-1NJchgY5Hx3kYqCJalPxw";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/serg-1212/cjn67c54h11882rlpojtf4h65",
+        center: [-10.5, 45], // starting position
+        zoom: 3.1 // starting zoom
+      });
 
-// Add zoom and rotation controls to the map.
-map.addControl(new mapboxgl.NavigationControl());
+      // Add zoom and rotation controls to the map.
+      map.addControl(new mapboxgl.NavigationControl());
 
-map.on('click', function(e) {
-    var features = map.queryRenderedFeatures(e.point, {
-        layers: ['gdp-all']
-    });
+      map.on("click", function(e) {
+        var features = map.queryRenderedFeatures(e.point, {
+          layers: ["gdp-all"]
+        });
 
-    if (!features.length) {
-        return;
-    }
+        if (!features.length) {
+          return;
+        }
 
-    var feature = features[0];
+        var feature = features[0];
 
-    var popup = new mapboxgl.Popup({ offset: [0, -15] })
-        .setLngLat(feature.geometry.coordinates)
-        .setHTML('<h3>' + feature.properties.name + '</h3><p>' + feature.properties.expdta + '</p><p>' + feature.properties.gdpdta + '</p><p>' + feature.properties.impdta + '</p>')
-        .setLngLat(feature.geometry.coordinates)
-        .addTo(map);
-});
-</script>
-<!--<script src="../js/mapRender.js"></script>-->
+        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+          .setLngLat(feature.geometry.coordinates)
+          .setHTML(
+            "<h3>" +
+              feature.properties.name +
+              "</h3><p>" +
+              feature.properties.expdta +
+              "</p><p>" +
+              feature.properties.gdpdta +
+              "</p><p>" +
+              feature.properties.impdta +
+              "</p>"
+          )
+          .setLngLat(feature.geometry.coordinates)
+          .addTo(map);
+      });
+    </script>
+    <!--<script src="../js/mapRender.js"></script>-->
   </body>
 </html>
