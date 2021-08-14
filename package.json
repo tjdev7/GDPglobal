@@ -1,6 +1,6 @@
 {
   "name": "gdpglobal",
-  "version": "3.2.18",
+  "version": "3.2.19",
   "private": false,
   "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
@@ -9,7 +9,7 @@
     "lodash.template": "^4.5.0",
     "mapbox-gl": "^1.11.0",
     "mem": "^6.1.0",
-    "npm": "^7.20.1",
+    "npm": "^7.20.6",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-map-gl": "^5.2.7",

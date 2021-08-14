@@ -11,16 +11,9 @@ SPA data visualizer created in React. Shows financial data for over 200 nations 
 - GDP per year in thousands of $US dollars
 - Imports per year in thousands of $US dollars
 
-### Future data which I would include:
-
-- [ ] Current Human Development Index per country
-- [ ] Capital city for each country
-- [ ] Trade growth percentage
-
 ### Source
 
 - [World Bank/WITS](https://wits.worldbank.org/countrystats.aspx?lang=en)
-
 
 #### How to use
 
@@ -29,3 +22,18 @@ SPA data visualizer created in React. Shows financial data for over 200 nations 
 2. Run ```npm install``` to install all app node modules and dependencies
 3. Run ```yarn start``` to run app on http://localhost:3000/
 
+### Future data which I would include:
+
+- [ ] Current Human Development Index per country
+- [ ] Capital city for each country
+- [ ] Trade growth percentage
+
+### Future app updates and goals: 
+
+- [ ] Improve nation selection
+
+#### Project resources:
+
+[Current roadmap for app](https://github.com/Toughee/GDPglobal/projects/1)
+[Wiki page for app](https://github.com/Toughee/GDPglobal/wiki)
+[Documentation for project contributors](https://github.com/Toughee/GDPglobal/tree/master/docs)
