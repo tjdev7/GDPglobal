@@ -1,10 +1,12 @@
 {
   "name": "gdpglobal",
-  "version": "3.2.19",
+  "version": "3.3.0",
   "private": false,
   "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
     "jquery": "^3.5.1",
+    "lighthouse": "^8.3.0",
+    "lighthouse-ci": "^1.13.0",
     "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
     "mapbox-gl": "^1.11.0",
@@ -26,7 +28,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'"
+    "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
+    "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
