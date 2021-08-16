@@ -37,6 +37,13 @@ node_modules/
 /build
 jspm_packages/
 
+# testing
+/coverage
+/tests/Ligthouse_audits/Lite.report.csv
+/tests/Ligthouse_audits/Lite.report.html
+/tests/Ligthouse_audits/Lite.report.json
+
+
 # TypeScript v1 declaration files
 typings/
 
