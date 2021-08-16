@@ -3401,6 +3401,13 @@
   dependencies:
     "pako" "~1.0.5"
 
+"browserlist@^1.0.1":
+  "integrity" "sha512-nYq9jiWv+qXcgrJxQzivfEc7Wo2GvAKkeRViE5L3cUJpq4SZO6NZR710I/8T+OjE5BPECbzpm8rpUkwslE3nTg=="
+  "resolved" "https://registry.npmjs.org/browserlist/-/browserlist-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "chalk" "^2.4.1"
+
 "browserslist@^4", "browserslist@^4.0.0", "browserslist@^4.12.0", "browserslist@^4.16.6", "browserslist@^4.6.2", "browserslist@^4.6.4":
   "integrity" "sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ=="
   "resolved" "https://registry.npmjs.org/browserslist/-/browserslist-4.16.6.tgz"

@@ -4,6 +4,7 @@
   "private": false,
   "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
+    "browserlist": "^1.0.1",
     "jquery": "^3.5.1",
     "lighthouse": "^8.3.0",
     "lighthouse-ci": "^1.13.0",
