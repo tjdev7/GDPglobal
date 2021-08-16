@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/GDPglobal/static/css/main.85fb25c7.chunk.css",
-    "main.js": "/GDPglobal/static/js/main.ec2afdc4.chunk.js",
-    "main.js.map": "/GDPglobal/static/js/main.ec2afdc4.chunk.js.map",
-    "runtime-main.js": "/GDPglobal/static/js/runtime-main.09e0439d.js",
-    "runtime-main.js.map": "/GDPglobal/static/js/runtime-main.09e0439d.js.map",
-    "static/js/2.f455b6a2.chunk.js": "/GDPglobal/static/js/2.f455b6a2.chunk.js",
-    "static/js/2.f455b6a2.chunk.js.map": "/GDPglobal/static/js/2.f455b6a2.chunk.js.map",
+    "main.css": "/GDPglobal/static/css/main.75d033a3.chunk.css",
+    "main.js": "/GDPglobal/static/js/main.8b9c607d.chunk.js",
+    "main.js.map": "/GDPglobal/static/js/main.8b9c607d.chunk.js.map",
+    "runtime-main.js": "/GDPglobal/static/js/runtime-main.175ec92d.js",
+    "runtime-main.js.map": "/GDPglobal/static/js/runtime-main.175ec92d.js.map",
+    "static/js/2.44c3e193.chunk.js": "/GDPglobal/static/js/2.44c3e193.chunk.js",
+    "static/js/2.44c3e193.chunk.js.map": "/GDPglobal/static/js/2.44c3e193.chunk.js.map",
     "index.html": "/GDPglobal/index.html",
-    "static/css/main.85fb25c7.chunk.css.map": "/GDPglobal/static/css/main.85fb25c7.chunk.css.map",
-    "static/js/2.f455b6a2.chunk.js.LICENSE.txt": "/GDPglobal/static/js/2.f455b6a2.chunk.js.LICENSE.txt"
+    "static/css/main.75d033a3.chunk.css.map": "/GDPglobal/static/css/main.75d033a3.chunk.css.map",
+    "static/js/2.44c3e193.chunk.js.LICENSE.txt": "/GDPglobal/static/js/2.44c3e193.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.09e0439d.js",
-    "static/js/2.f455b6a2.chunk.js",
-    "static/css/main.85fb25c7.chunk.css",
-    "static/js/main.ec2afdc4.chunk.js"
+    "static/js/runtime-main.175ec92d.js",
+    "static/js/2.44c3e193.chunk.js",
+    "static/css/main.75d033a3.chunk.css",
+    "static/js/main.8b9c607d.chunk.js"
   ]
 }
