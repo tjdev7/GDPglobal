@@ -43,6 +43,8 @@ jspm_packages/
 /tests/Ligthouse_audits/Lite.report.html
 /tests/Ligthouse_audits/Lite.report.json
 
+# Visual Studio file
+.history/
 
 # TypeScript v1 declaration files
 typings/
