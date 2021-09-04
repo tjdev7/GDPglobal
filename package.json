@@ -1,10 +1,12 @@
 {
   "name": "gdpglobal",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "private": false,
   "homepage": "https://toughee.github.io/GDPglobal/",
   "dependencies": {
     "browserlist": "^1.0.1",
+    "cypress": "^8.3.1",
+    "glob-parent": "^6.0.1",
     "jquery": "^3.5.1",
     "lighthouse": "^8.3.0",
     "lighthouse-ci": "^1.13.0",
@@ -12,7 +14,7 @@
     "lodash.template": "^4.5.0",
     "mapbox-gl": "^1.11.0",
     "mem": "^6.1.0",
-    "npm": "^7.20.6",
+    "npm": "^7.22.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-map-gl": "^5.2.7",
@@ -70,6 +72,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "resolutions": {
+      "glob-parent": "5.1.2"
+    }
   }
 }
