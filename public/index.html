@@ -72,9 +72,7 @@
     <title>GDPglobal</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
     <div id="root"></div>
 
     <div id="map"></div>
@@ -85,15 +83,15 @@
         container: "map",
         style: "mapbox://styles/serg-1212/cjn67c54h11882rlpojtf4h65",
         center: [-10.5, 45], // starting position
-        zoom: 3.1 // starting zoom
+        zoom: 3.1, // starting zoom
       });
 
       // Add zoom and rotation controls to the map.
       map.addControl(new mapboxgl.NavigationControl());
 
-      map.on("click", function(e) {
+      map.on("click", function (e) {
         var features = map.queryRenderedFeatures(e.point, {
-          layers: ["gdp-all"]
+          layers: ["gdp-all"],
         });
 
         if (!features.length) {

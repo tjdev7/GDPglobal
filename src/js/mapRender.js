@@ -4,15 +4,15 @@ var map = new mapboxgl.Map({
   container: "map", // container id
   style: "mapbox://styles/serg-1212/cjn67c54h11882rlpojtf4h65",
   center: [-75.5, 42], // starting position
-  zoom: 3 // starting zoom
+  zoom: 3, // starting zoom
 });
 
 // Add zoom and rotation controls to the map.
 map.addControl(new mapboxgl.NavigationControl());
 
-map.on("click", function(e) {
+map.on("click", function (e) {
   var features = map.queryRenderedFeatures(e.point, {
-    layers: ["gdp-all"]
+    layers: ["gdp-all"],
   });
 
   if (!features.length) {
