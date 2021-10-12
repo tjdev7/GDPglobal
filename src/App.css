@@ -7,8 +7,8 @@
 */
 .side_Tab {
   text-align: center;
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 350px;
   float: left;
   background-color: #f5f5f5;
   padding: 0px 10px 0px 10px;
@@ -27,8 +27,10 @@
 
 h1 {
   font-family: "Roboto Slab", serif;
-  font-size: 3rem;
+  font-size: 4.5rem;
   margin-top: 10px;
+  text-align: center;
+
 }
 
 h4,
@@ -38,12 +40,14 @@ h3 {
 }
 h5,
 p {
-  font-size: 0.9rem;
+  font-size: 1.8rem;
+  text-align: center;
+
 }
 h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-right: 1vw;
-  text-align: justify;
+  text-align: center;
 }
 
 h3 {
@@ -53,7 +57,7 @@ h3 {
 }
 h4,
 h1 {
-  margin-bottom: -15px;
+  margin-bottom: -25px;
 }
 
 p {

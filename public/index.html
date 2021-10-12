@@ -82,8 +82,8 @@
       var map = new mapboxgl.Map({
         container: "map",
         style: "mapbox://styles/serg-1212/cjn67c54h11882rlpojtf4h65",
-        center: [-10.5, 45], // starting position
-        zoom: 3.1, // starting zoom
+        center: [10.5, 50], // starting position
+        zoom: 4.1, // starting zoom
       });
 
       // Add zoom and rotation controls to the map.
@@ -103,9 +103,9 @@
         var popup = new mapboxgl.Popup({ offset: [0, -15] })
           .setLngLat(feature.geometry.coordinates)
           .setHTML(
-            "<h3>" +
+            "<h5>" +
               feature.properties.name +
-              "</h3><p>" +
+              "</h5><p>" +
               feature.properties.expdta +
               "</p><p>" +
               feature.properties.gdpdta +
